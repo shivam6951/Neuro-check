@@ -1,8 +1,8 @@
 streamlit
 numpy
 pillow
-tensorflow==2.10.0  # Adjust version if needed
-opencv-python-headless  # Use headless version to avoid GUI issues
+tensorflow-cpu==2.10.0  # Avoids GPU issues in Streamlit Cloud
+opencv-python-headless  # Headless version required for cloud
 plotly
 requests
 pyperclip

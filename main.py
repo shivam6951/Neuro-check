@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
+pip install tensorflow
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import cv2

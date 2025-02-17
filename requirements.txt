@@ -1,9 +1,8 @@
 streamlit
 numpy
 pillow
-tensorflow
-opencv-python
+tensorflow==2.10.0  # Adjust version if needed
+opencv-python-headless  # Use headless version to avoid GUI issues
 plotly
 requests
 pyperclip
-cv2

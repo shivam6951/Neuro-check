@@ -6,3 +6,4 @@ opencv-python
 plotly
 requests
 pyperclip
+cv2
